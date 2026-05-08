@@ -22,6 +22,8 @@ body {
    "intro   faq"
    "articles faq"
    "footer  footer";
+   
+   grid-column-gap: 15px;
 
 }
 
