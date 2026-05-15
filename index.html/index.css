@@ -1,0 +1,99 @@
+/* General Page Styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+h1 {
+  background-color: #006341;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Section Headings */
+h2 {
+  color: #006341;
+  text-align: center;
+  border-bottom: 2px solid #006341;
+  padding-bottom: 5px;
+}
+
+/* Assignments List */
+ul {
+  list-style-type: square;
+  padding-left: 40px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* About Me Section */
+#about {
+  background-color: #e6e6fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+/* Weekly Progress Section */
+#progress {
+  background-color: #fff;
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #006341;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+/* Picture */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+
+/* assinment */
+.assignment-btn {
+  display: inline-block;
+  background-color: #007b8f;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.assignment-btn:hover {
+  background-color: #00a3c4;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.assignment-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
