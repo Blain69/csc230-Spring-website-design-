@@ -1,11 +1,20 @@
 /* General Page Styles */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background-color: #f8f9fa;
+  background: linear-gradient(to bottom, rgba(0,127,127,0.25), rgba(0,127,127,0.05)),
+              url('background.jpg'); /* Replace with your image file name */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   color: #333;
   margin: 0;
   padding: 0;
 }
+
+body {
+  backdrop-filter: blur(2px);
+}
+
 
 /* Header */
 h1 {
@@ -96,4 +105,132 @@ img {
 .assignment-btn:active {
   transform: translateY(0);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* My Assignments titles */
+nav ul li {
+  font-size: 1.2em;         
+  font-weight: 700;          
+  color: #004c4c;            
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 10px;       
+}
+
+aside {
+  background: linear-gradient(to right, #e0f7fa, #b2dfdb); 
+  border-left: 5px solid #007f7f;
+  padding: 25px;
+  border-radius: 10px;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif; 
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #003333;
+  text-align: center; 
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Make the heading stand out */
+aside h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #004c4c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Style links */
+aside a {
+  color: #007f7f;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;
+  color: #004c4c;
+}
+
+.assignment-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px; 
+  margin-top: 20px;
+  padding-left: 210px;
+}
+
+
+.column {
+  flex: 1;
+  min-width: 300px; 
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column li {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #004c4c;
+  margin-bottom: 12px;
+  background-color: rgba(255,255,255,0.6);
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block; 
+}
+
+
+
+.weekly-text {
+  text-align: center;        
+  font-size: 1.2em;          
+  font-weight: 700;          
+  color: #004c4c;            
+  font-family: 'Segoe UI', sans-serif; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* background */
+.weekly-text {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.about-box,
+.weekly-text {
+  display: inline-block;                
+  background-color: rgba(224,247,250,0.9); 
+  padding: 20px 30px;                  
+  border-radius: 10px;                 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15); 
+  text-align: center;
+}
+
+.about-box {
+  display: inline-block;                
+  background-color: rgba(224,247,250,0.9); 
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  text-align: center;
+  margin: 0 auto;                       
+}
+
+section {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  flex-direction: column;    
+}
+
+aside {
+  display: flex;
+  justify-content: center;   
+  width: 100%;               
 }
