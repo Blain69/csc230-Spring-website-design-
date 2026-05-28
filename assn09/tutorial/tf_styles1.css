@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Blaine Hazelip
+   Date:     5/28/2026
    
    Filename: tf_styles1.css
    
@@ -144,10 +144,36 @@ body > footer {
 }
 
 /* Pulldown Menu Styles */
+ul.submenu {
+   display: none;
+}
 
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+   display: block;
+}
 
 
 
 /* New Styles Added Below */
 
 
+/* ================================
+   Mobile Styles: 0px to 480px
+   ================================ */
+@media only screen and (max-width: 480px) {
+   /* Mobile-specific styles go here */
+}
+
+/* ================================
+   Tablet Styles: 481px to 768px
+   ================================ */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+   /* Tablet-specific styles go here */
+}
+
+/* ================================
+   Desktop Styles: 769px and greater
+   ================================ */
+@media only screen and (min-width: 769px) {
+   /* Desktop-specific styles go here */
+}
