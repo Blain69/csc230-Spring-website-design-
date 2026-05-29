@@ -4,8 +4,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Blaine Hazelip
+   Date:     5/28/2026
    
    Filename: tf_print.css
 
@@ -17,7 +17,9 @@
 
 
 /* Hidden Objects */
-
+nav.horizontal, aside, footer {
+   display: none;
+}
 
 
 /* Page Box Styles */
@@ -56,6 +58,13 @@ body > header > img {
 
 
 /* Page Break Styles */
+
+
+
+
+	
+
+
 
 
 
