@@ -1,0 +1,236 @@
+/* General Page Styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(to bottom, rgba(0,127,127,0.25), rgba(0,127,127,0.05)),
+              url('background.jpg'); /* Replace with your image file name */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  backdrop-filter: blur(2px);
+}
+
+
+/* Header */
+h1 {
+  background-color: #006341;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Section Headings */
+h2 {
+  color: #006341;
+  text-align: center;
+  border-bottom: 2px solid #006341;
+  padding-bottom: 5px;
+}
+
+/* Assignments List */
+ul {
+  list-style-type: square;
+  padding-left: 40px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* About Me Section */
+#about {
+  background-color: #e6e6fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+/* Weekly Progress Section */
+#progress {
+  background-color: #fff;
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #006341;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+/* Picture */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+
+/* assinment */
+.assignment-btn {
+  display: inline-block;
+  background-color: #007b8f;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.assignment-btn:hover {
+  background-color: #00a3c4;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.assignment-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* My Assignments titles */
+nav ul li {
+  font-size: 1.2em;         
+  font-weight: 700;          
+  color: #004c4c;            
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 10px;       
+}
+
+aside {
+  background: linear-gradient(to right, #e0f7fa, #b2dfdb); 
+  border-left: 5px solid #007f7f;
+  padding: 25px;
+  border-radius: 10px;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif; 
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #003333;
+  text-align: center; 
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Make the heading stand out */
+aside h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #004c4c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Style links */
+aside a {
+  color: #007f7f;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;
+  color: #004c4c;
+}
+
+.assignment-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px; 
+  margin-top: 20px;
+  padding-left: 210px;
+}
+
+
+.column {
+  flex: 1;
+  min-width: 300px; 
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column li {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #004c4c;
+  margin-bottom: 12px;
+  background-color: rgba(255,255,255,0.6);
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block; 
+}
+
+
+
+.weekly-text {
+  text-align: center;        
+  font-size: 1.2em;          
+  font-weight: 700;          
+  color: #004c4c;            
+  font-family: 'Segoe UI', sans-serif; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* background */
+.weekly-text {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.about-box,
+.weekly-text {
+  display: inline-block;                
+  background-color: rgba(224,247,250,0.9); 
+  padding: 20px 30px;                  
+  border-radius: 10px;                 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15); 
+  text-align: center;
+}
+
+.about-box {
+  display: inline-block;                
+  background-color: rgba(224,247,250,0.9); 
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  text-align: center;
+  margin: 0 auto;                       
+}
+
+section {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  flex-direction: column;    
+}
+
+aside {
+  display: flex;
+  justify-content: center;   
+  width: 100%;               
+}
